@@ -1,0 +1,18 @@
+<Window x:Class="WpfApplication10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication10"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="button" Content="btn_array" HorizontalAlignment="Left" Margin="83,68,0,0" VerticalAlignment="Top" Width="75" Height="28" Click="button_Click"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="307,230,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="136" Margin="307,68,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="button1" Content="Set the arraysize" HorizontalAlignment="Left" Margin="83,184,0,0" VerticalAlignment="Top" Width="134" Click="button1_Click"/>
+        <Button x:Name="btn_excersice" Content="Excersice_button" HorizontalAlignment="Left" Margin="83,230,0,0" VerticalAlignment="Top" Width="134" Click="btn_excersice_Click" Height="23"/>
+        <Button x:Name="btn_dimension" Content="btn_2-dimension" HorizontalAlignment="Left" Margin="83,271,0,0" VerticalAlignment="Top" Width="134" Click="btn_dimension_Click"/>
+
+    </Grid>
+</Window>
